@@ -39,5 +39,9 @@
 		<action name="servlet_object" class="com.action.ServletObjectAction">
 			<result>/servlet_show.jsp</result>
 		</action>
+		
+		<action name="model_driven" class="com.action.ModelDrivenTest">
+			<result>/show_form_param.jsp</result>
+		</action>
 	</package>
 </struts>
