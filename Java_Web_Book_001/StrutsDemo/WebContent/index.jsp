@@ -9,5 +9,11 @@
 </head>
 <body>
 	<s:a action="hello">Hello</s:a>
+	
+	<!-- Example 5-2 -->
+	<center>
+		<s:a action="login">login</s:a> <br />
+		<s:a action="login!redirect">login-direct</s:a> <!-- This is DMI. -->
+	</center>
 </body>
 </html>

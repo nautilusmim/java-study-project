@@ -6,5 +6,22 @@
 		<action name="hello" class="com.action.TestAction">
 			<result>/success.jsp</result>
 		</action>
+		
+		<action name="login" class="com.action.LoginAction">
+			<result type="redirectAction">
+				<param name="namespace">/user</param>
+				<param name="actionName">userLogin</param>
+			</result>
+			<result name="error" type="redirectAction">error</result>
+		</action>
+		<action name="error">
+			<result>/error.jsp</result>
+		</action>
+	</package>
+	
+	<package name="user" namespace="/user" extends="struts-default">
+		<action name="userLogin" class="com.action.UserAction">
+			<result>/hello.jsp</result>
+		</action>
 	</package>
 </struts>
