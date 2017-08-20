@@ -28,4 +28,16 @@
 			<result name="update">/update.jsp</result>
 		</action>
 	</package>
+	
+	<package name="servlet" namespace="/" extends="struts-default">
+		<action name="servlet" class="com.action.ServletAction">
+			<result>/servlet_show.jsp</result>
+		</action>
+		<action name="servlet_aware" class="com.action.ServletAwareAction">
+			<result>/servlet_show.jsp</result>
+		</action>
+		<action name="servlet_object" class="com.action.ServletObjectAction">
+			<result>/servlet_show.jsp</result>
+		</action>
+	</package>
 </struts>

@@ -21,5 +21,12 @@
 		<s:a action="user/user">user</s:a> <br />
 		<s:a action="user/user!update">update</s:a> <!-- This is DMI. -->
 	</center>
+	<hr />
+	<!-- Example 5-4 -->
+	<center>
+		<s:a action="servlet">Action with Servlet API(ActionContext)</s:a> <br />
+		<s:a action="servlet_aware">Action with Servlet API(*Aware)</s:a> <br />
+		<s:a action="servlet_object">Action with Servlet API(ServletActionContext)</s:a>
+	</center>
 </body>
 </html>
