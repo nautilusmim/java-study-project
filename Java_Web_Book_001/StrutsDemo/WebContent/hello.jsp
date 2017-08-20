@@ -9,5 +9,7 @@
 </head>
 <body>
 	<center><h2>Hello, world!</h2></center>
+	<hr />
+	<center><s:property value="info"/></center>
 </body>
 </html>

@@ -23,5 +23,9 @@
 		<action name="userLogin" class="com.action.UserAction">
 			<result>/hello.jsp</result>
 		</action>
+		<action name="user" class="com.action.UserAction">
+			<result name="success">/hello.jsp</result>
+			<result name="update">/update.jsp</result>
+		</action>
 	</package>
 </struts>
