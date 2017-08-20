@@ -29,12 +29,22 @@
 		<s:a action="servlet_object">Action with Servlet API(ServletActionContext)</s:a>
 	</center>
 	<hr />
-	<!-- Example 5-4 -->
+	<!-- Example 5-5 -->
 	<center>
 		<s:form action="model_driven" method="POST">
 			<s:textfield label="姓名" name="name" />
 			<s:textfield label="年龄" name="age" />
 			<s:textfield label="地址" name="address" />
+			<s:textfield label="电话" name="telephone" />
+			<s:submit value="submit" />
+		</s:form>
+	</center>
+	<hr />
+	<!-- Example 5-6 -->
+	<center>
+		<s:form action="handle_exception">
+			<s:textfield label="姓名" name="name" />
+			<s:textfield label="年龄" name="age" />
 			<s:textfield label="电话" name="telephone" />
 			<s:submit value="submit" />
 		</s:form>

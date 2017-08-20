@@ -44,4 +44,20 @@
 			<result>/show_form_param.jsp</result>
 		</action>
 	</package>
+	
+	<package name="exception" namespace="/" extends="struts-default">
+		<global-results>
+			<result name="exception">/exception.jsp</result>
+			<result name="sql_exception">/sql_exception.jsp</result>
+		</global-results>
+		<global-exception-mappings>
+			<exception-mapping result="exception" exception="java.lang.Exception" />
+			<exception-mapping result="sql_exception" exception="java.sql.SQLException" />
+		</global-exception-mappings>
+		<action name="handle_exception" class="com.action.HandleException">
+			<result>/success.jsp</result>
+			<result name="loginException">/login_exception.jsp</result>
+			<exception-mapping result="loginException" exception="com.action.SecurityException" />
+		</action>
+	</package>
 </struts>
