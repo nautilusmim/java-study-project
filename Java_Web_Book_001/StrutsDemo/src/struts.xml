@@ -60,4 +60,10 @@
 			<exception-mapping result="loginException" exception="com.action.SecurityException" />
 		</action>
 	</package>
+	
+	<package name="type_convert" namespace="/" extends="struts-default">
+		<action name="list_map" class="com.action.TypeConvertWithPropertiesAction">
+			<result>/result_type_convert.jsp</result>
+		</action>
+	</package>
 </struts>

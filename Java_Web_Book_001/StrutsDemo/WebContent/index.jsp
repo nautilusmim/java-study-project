@@ -31,7 +31,7 @@
 	<hr />
 	<!-- Example 5-5 -->
 	<center>
-		<s:form action="model_driven" method="POST">
+		<s:form action="model_driven" method="POST" namespace="/">
 			<s:textfield label="姓名" name="name" />
 			<s:textfield label="年龄" name="age" />
 			<s:textfield label="地址" name="address" />
@@ -42,7 +42,7 @@
 	<hr />
 	<!-- Example 5-6 -->
 	<center>
-		<s:form action="handle_exception">
+		<s:form action="handle_exception" namespace="/">
 			<s:textfield label="姓名" name="name" />
 			<s:textfield label="年龄" name="age" />
 			<s:textfield label="电话" name="telephone" />
