@@ -8,6 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<!-- Example 6-1:
 	<center>
 		<h3>struts 2 list type conversion</h3>
 		<table>
@@ -58,6 +59,8 @@
 				<td><s:property value="userMaps['second'].tel" /></td>
 			</tr>
 		</table>
-	</center>	
+	</center>
+	-->
+	<s:property value="line" />
 </body>
 </html>

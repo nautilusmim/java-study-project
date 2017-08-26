@@ -65,5 +65,8 @@
 		<action name="list_map" class="com.action.TypeConvertWithPropertiesAction">
 			<result>/result_type_convert.jsp</result>
 		</action>
+		<action name="user_line" class="com.action.LineTypeConvertAction">
+			<result>/result_type_convert.jsp</result>
+		</action>
 	</package>
 </struts>

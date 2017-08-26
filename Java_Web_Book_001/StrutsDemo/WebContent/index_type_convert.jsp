@@ -8,6 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<!-- Example 6-1:
 	<center>
 		<h3>struts 2 list type conversion</h3>
 		<s:form action="list_map" namespace="/">
@@ -61,5 +62,11 @@
 			</table>
 		</s:form>
 	</center>
+	 -->
+	<!-- Example 6-2 -->
+	<s:form action="user_line" namespace="/">
+		<s:textfield name="line" label="Please input formatted string like this '(n1,n2,n3,n4)'" />
+		<s:submit />
+	</s:form>
 </body>
 </html>
