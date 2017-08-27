@@ -69,4 +69,11 @@
 			<result>/result_type_convert.jsp</result>
 		</action>
 	</package>
+	
+	<package name="validate" namespace="/validate" extends="struts-default">
+		<action name="validate" class="com.action.MethodValidateAction">
+			<result>/result_validate.jsp</result>
+			<result name="input">/validate_fail.jsp</result>
+		</action>
+	</package>
 </struts>
