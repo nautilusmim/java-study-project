@@ -76,4 +76,10 @@
 			<result name="input">/validate_fail.jsp</result>
 		</action>
 	</package>
+	
+	<package name="i18n" namespace="/i18n" extends="struts-default">
+		<action name="diversify" class="com.action.InternationalAction">
+			<result>/result_international.jsp</result>
+		</action>
+	</package>
 </struts>
