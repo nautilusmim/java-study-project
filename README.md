@@ -2,4 +2,5 @@
 Learn to use and study Java language.
 There will be lots of projects here, so must set a rule to identify them, below is:
 
-	Java_Web_Book_001 -> ¡¶Java WebÕûºÏ¿ª·¢Êµ¼ù - »ùÓÚStruts 2+Hibernate+Spring¡·£¨¼Öİí£© 
+	Java_Web_Book_001 -> ã€ŠJava Webæ•´åˆå¼€å‘å®è·µ - åŸºäºStruts 2+Hibernate+Springã€‹ï¼ˆè´¾è““ï¼‰ 
+	Java_Web_Book_002 -> ã€ŠJava Webæ•´åˆå¼€å‘ç‹è€…å½’æ¥ - JSP/Servlet/Struts/Hibernate/Springã€‹ï¼ˆåˆ˜äº¬åï¼‰
