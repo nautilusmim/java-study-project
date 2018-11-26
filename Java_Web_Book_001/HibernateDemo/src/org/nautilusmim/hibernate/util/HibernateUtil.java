@@ -50,6 +50,22 @@ public class HibernateUtil {
 	}
 	
 	/**
+	 * 获取数据库连接 - 自动关闭连接
+	 * 
+	 * @return	Session	数据库连接对象
+	 * @throws	Exception
+	 */
+	public static Session getCurrentSession() throws Exception {
+		Session session = threadLocal.get();
+		if(null == session || !session.isOpen()) {
+			session = sessionFactory.getCurrentSession();
+			threadLocal.set(session);
+		}
+		
+		return session;
+	}
+	
+	/**
 	 * 关闭数据库连接
 	 * 
 	 * @throws Exception
