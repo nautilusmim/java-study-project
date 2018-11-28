@@ -50,7 +50,7 @@ public class HibernateUtil {
 	}
 	
 	/**
-	 * 获取数据库连接 - 自动关闭连接
+	 * 获取数据库连接 - 业务处理后自动关闭连接
 	 * 
 	 * @return	Session	数据库连接对象
 	 * @throws	Exception

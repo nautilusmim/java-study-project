@@ -4,8 +4,8 @@
 	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
 	<session-factory>
-		<!-- <property name="hibernate.current_session_context_class">thread</property> -->
-		<property name="hibernate.current_session_context_class">thread</property>
+		<!-- <property name="hibernate.current_session_context_class">jta</property>
+		<property name="hibernate.current_session_context_class">thread</property> -->
 		<mapping resource="org/nautilusmim/hibernate/pojo/hbm/SysUser.hbm.xml" />
 		<!-- 需要配合注解使用? -->
 		<!-- <mapping class="org.nautilusmim.hibernate.pojo.SysUser.class" /> -->
