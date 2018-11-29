@@ -34,7 +34,7 @@ public class HibernateUtil {
 	}
 	
 	/**
-	 * 获取数据库连接
+	 * 获取数据库连接 - 需要手动关闭连接
 	 * 
 	 * @return	Session	数据库连接对象
 	 * @throws	Exception
