@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="org.nautilusmim.hibernate.pojo.CollectionMapping" table="collection">
+		<id name="id" column="id" type="long">
+			<generator class="native" />
+		</id>
+		<property name="name" column="name" type="string" length="32" />
+		<list name="lists" table="t_lists">
+			<key></key>
+			<list-index></list-index>
+			<element></element>
+		</list>
+		<set name="sets" table="t_sets">
+			<key></key>
+			<element></element>
+		</set>
+		<map name="maps" table="t_maps">
+			<key></key>
+			<map-key></map-key>
+			<element></element>
+		</map>
+		<array name="arrays" table="t_arrays">
+			<key></key>
+			<list-index></list-index>
+			<element></element>
+		</array>
+	</class>
+</hibernate-mapping>
