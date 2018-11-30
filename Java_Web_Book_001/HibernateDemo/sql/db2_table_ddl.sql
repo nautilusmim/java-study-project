@@ -17,3 +17,31 @@ create table sys_department (
 	parent_id bigint,
 	manager_id bigint
 )@
+-- table_name:	collection
+create table collection (
+	id bigint,
+	name varchar(32)
+)@
+-- table_name:	t_lists
+create table t_lists(
+	list_id bigint,
+	list_index bigint,
+	list_value varchar(100)
+)@
+-- table_name:	t_sets
+create table t_sets(
+	set_id bigint,
+	set_value varchar(100)
+)@
+-- table_name:	t_maps
+create table t_maps(
+	map_id bigint,
+	map_key varchar(32)
+	map_value varchar(100)
+)@
+-- table_name:	t_arrays
+create table t_arrays(
+	list_id bigint,
+	list_index bigint,
+	list_value varchar(100)
+)@

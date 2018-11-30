@@ -24,6 +24,7 @@ public class TestCase {
 		
 		dao.create(user);
 		
+		
 //		user.setId(4L);
 //		user.setName("更改1");
 //		user.setPassword("0");
