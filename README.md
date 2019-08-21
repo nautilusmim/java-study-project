@@ -1,6 +1,10 @@
-# java-test-project
+# java-study-project
 
 Learn to use and study Java language.
+*****
+Working:  Java_Web_Book_000c  
+Time:     2019.08.21 - 2019.08.22
+*****
 There will be lots of projects here, so must set a rule to identify them, below is:  
 
 - Java_Web_Book_000 -《Java编程思想(第4版)》
