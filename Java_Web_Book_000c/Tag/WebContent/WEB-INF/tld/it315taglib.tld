@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+    version="2.0">
+    <description>A tag library exercising self-defined JSP tag.</description>
+    <tlib-version>1.0</tlib-version>
+    <short-name>it315</short-name>
+    <uri>http://www.it315.org/taglib</uri>
+    <tag>
+    	<description>Display local IP</description>
+    	<display-name>it315.viewIP</display-name>
+    	<name>viewIP</name>
+    	<tag-class>org.it315.custom.tag.ViewIPTag</tag-class>
+    	<body-content>empty</body-content>
+    </tag>
+</taglib>
