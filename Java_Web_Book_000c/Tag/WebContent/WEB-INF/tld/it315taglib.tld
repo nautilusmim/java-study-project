@@ -35,4 +35,18 @@
     		<type>java.lang.String</type>
     	</attribute>
     </tag>
+    <tag>
+    	<description>Dynamic tag attribute value</description>
+    	<display-name>it315.TestAttr</display-name>
+    	<name>testAttr</name>
+    	<tag-class>org.it315.custom.tag.TestAttrTag</tag-class>
+    	<body-content>empty</body-content>
+    	<attribute>
+    		<description>forwarded url</description>
+    		<name>attr</name>
+    		<required>true</required>
+    		<rtexprvalue>true</rtexprvalue>
+    		<type>java.util.Date</type>
+    	</attribute>
+    </tag>
 </taglib>
