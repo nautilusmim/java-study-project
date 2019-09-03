@@ -5,18 +5,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>欢迎访问本页面</title>
+<title>只允许超链接方式访问本站的当前页面</title>
 </head>
 <body>
-	<%
-		String user = request.getParameter("username");
-		if(null != user) {
-			session.setAttribute("user", user);
-		}
-	%>
-	欢迎您访问本站！
-	<it315:displayUserInfo>
-		<br />你的姓名是${ user }
-	</it315:displayUserInfo>
+	<it315:validate url="html/visitor.html" />
+	合法跳转链接可显示这段文字！
 </body>
 </html>

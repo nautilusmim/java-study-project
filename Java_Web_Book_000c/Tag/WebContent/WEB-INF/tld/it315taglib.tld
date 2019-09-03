@@ -21,4 +21,18 @@
     	<tag-class>org.it315.custom.tag.DisplayUserInfoTag</tag-class>
     	<body-content>JSP</body-content>
     </tag>
+    <tag>
+    	<description>If display JSP part after end tag</description>
+    	<display-name>it315.Validate</display-name>
+    	<name>validate</name>
+    	<tag-class>org.it315.custom.tag.ValidateTag</tag-class>
+    	<body-content>empty</body-content>
+    	<attribute>
+    		<description>forwarded url</description>
+    		<name>url</name>
+    		<required>false</required>
+    		<rtexprvalue>false</rtexprvalue>
+    		<type>java.lang.String</type>
+    	</attribute>
+    </tag>
 </taglib>
