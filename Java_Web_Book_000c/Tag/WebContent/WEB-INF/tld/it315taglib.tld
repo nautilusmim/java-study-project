@@ -14,4 +14,11 @@
     	<tag-class>org.it315.custom.tag.ViewIPTag</tag-class>
     	<body-content>empty</body-content>
     </tag>
+    <tag>
+    	<description>If display tag body</description>
+    	<display-name>it315.DisplayUserInfo</display-name>
+    	<name>displayUserInfo</name>
+    	<tag-class>org.it315.custom.tag.DisplayUserInfoTag</tag-class>
+    	<body-content>JSP</body-content>
+    </tag>
 </taglib>

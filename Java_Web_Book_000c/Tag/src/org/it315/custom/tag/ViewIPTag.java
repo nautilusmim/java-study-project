@@ -13,10 +13,8 @@ public class ViewIPTag extends TagSupport {
 	@Override
 	public int doStartTag() throws JspException {
 		JspWriter out = pageContext.getOut();
-		String ip = pageContext.getRequest()
-								.getRemoteHost()
+		String ip = pageContext.getRequest().getRemoteHost();
 								//.getRemoteAddr()
-								;
 		
 		try {
 			out.write(ip);
