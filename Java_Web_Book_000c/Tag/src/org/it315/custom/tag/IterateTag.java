@@ -11,7 +11,7 @@ public class IterateTag extends TagSupport {
 	
 	private String[] items;
 	
-	private int i = 0;
+	private int i;
 
 	public String getName() {
 		return name;
@@ -31,6 +31,8 @@ public class IterateTag extends TagSupport {
 	
 	@Override
 	public int doStartTag() throws JspException {
+		i = 0;
+		
 		if(null == items || items.length <= 0) {
 			return SKIP_BODY;
 		} else {

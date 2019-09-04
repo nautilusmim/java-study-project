@@ -84,4 +84,11 @@
     		<rtexprvalue>true</rtexprvalue>
     	</attribute>
     </tag>
+    <tag>
+    	<description>Research: implementation of TagHandlerPool.</description>
+    	<display-name>it315.TestMemory</display-name>
+    	<name>testMemory</name>
+    	<tag-class>org.it315.custom.tag.TestMemoryTag</tag-class>
+    	<body-content>empty</body-content>
+    </tag>
 </taglib>
