@@ -42,11 +42,26 @@
     	<tag-class>org.it315.custom.tag.TestAttrTag</tag-class>
     	<body-content>empty</body-content>
     	<attribute>
-    		<description>forwarded url</description>
+    		<description>run time expression attribute value</description>
     		<name>attr</name>
     		<required>true</required>
     		<rtexprvalue>true</rtexprvalue>
     		<type>java.util.Date</type>
     	</attribute>
+    </tag>
+    <tag>
+    	<description>Dynamic attributes</description>
+    	<display-name>it315.PullDownList</display-name>
+    	<name>pullDownList</name>
+    	<tag-class>org.it315.custom.tag.ListTag</tag-class>
+    	<body-content>JSP</body-content>
+    	<attribute>
+    		<description>Name of tag select</description>
+    		<name>name</name>
+    		<required>true</required>
+    		<rtexprvalue>false</rtexprvalue>
+    		<type>java.lang.String</type>
+    	</attribute>
+    	<dynamic-attributes>true</dynamic-attributes>
     </tag>
 </taglib>
