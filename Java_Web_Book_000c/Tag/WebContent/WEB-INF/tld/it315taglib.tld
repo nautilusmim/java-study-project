@@ -64,4 +64,24 @@
     	</attribute>
     	<dynamic-attributes>true</dynamic-attributes>
     </tag>
+    <tag>
+    	<description>Recursively operate tag body.</description>
+    	<display-name>it315.Iterate</display-name>
+    	<name>iterate</name>
+    	<tag-class>org.it315.custom.tag.IterateTag</tag-class>
+    	<body-content>JSP</body-content>
+    	<attribute>
+    		<description>variable name</description>
+    		<name>name</name>
+    		<required>true</required>
+    		<rtexprvalue>false</rtexprvalue>
+    		<type>java.lang.String</type>
+    	</attribute>
+    	<attribute>
+    		<description>Data that will be operated.</description>
+    		<name>items</name>
+    		<required>false</required>
+    		<rtexprvalue>true</rtexprvalue>
+    	</attribute>
+    </tag>
 </taglib>
