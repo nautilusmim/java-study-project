@@ -12,8 +12,8 @@
 		String[] items = {"Java", "C/C++", "Assembly", "Python", "Perl"};
 	%>
 	<it315:iterate items="<%= items %>" name="lang">
-		<%= pageContext.findAttribute("lang").toString() %> <br />
 		${ lang } <br />
+		<%= lang %>  <br />
 	</it315:iterate>
 </body>
 </html>
