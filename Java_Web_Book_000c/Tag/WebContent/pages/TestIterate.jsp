@@ -11,9 +11,11 @@
 	<%!
 		String[] items = {"Java", "C/C++", "Assembly", "Python", "Perl"};
 	%>
-	<it315:iterate items="<%= items %>" name="lang">
-		${ lang } <br />
-		<%= lang %>  <br />
+	<%--
+		String prompt = null;
+	--%>
+	<it315:iterate items="<%= items %>" name="lang" varName="prompt">
+		<%= prompt %> ${ lang } <br />
 	</it315:iterate>
 </body>
 </html>

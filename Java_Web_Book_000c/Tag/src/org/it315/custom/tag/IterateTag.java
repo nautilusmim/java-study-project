@@ -9,6 +9,8 @@ public class IterateTag extends TagSupport {
 	
 	private String name;
 	
+	private String varName;
+	
 	private String[] items;
 	
 	private int i;
@@ -19,6 +21,14 @@ public class IterateTag extends TagSupport {
 
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	public String getVarName() {
+		return varName;
+	}
+
+	public void setVarName(String varName) {
+		this.varName = varName;
 	}
 
 	public String[] getItems() {
@@ -37,6 +47,7 @@ public class IterateTag extends TagSupport {
 			return SKIP_BODY;
 		} else {
 			pageContext.setAttribute(name, items[0]);
+			pageContext.setAttribute(varName, "bookname: ");
 			return EVAL_BODY_INCLUDE;
 		}
 	}

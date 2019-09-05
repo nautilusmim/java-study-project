@@ -71,11 +71,23 @@
     	<tag-class>org.it315.custom.tag.IterateTag</tag-class>
     	<body-content>JSP</body-content>
     	<variable>
-    		<name-given>lang</name-given>
+    		<!-- <name-given>lang</name-given> -->
+    		<name-from-attribute>varName</name-from-attribute>
+    		<declare>true</declare>
+    		<scope>AT_BEGIN</scope>
+    		<!-- <scope>NESTED</scope> -->
+    		<!-- <scope>AT_END</scope> -->
     	</variable>
     	<attribute>
     		<description>variable name</description>
     		<name>name</name>
+    		<required>true</required>
+    		<rtexprvalue>false</rtexprvalue>
+    		<type>java.lang.String</type>
+    	</attribute>
+    	<attribute>
+    		<description>script variable name</description>
+    		<name>varName</name>
     		<required>true</required>
     		<rtexprvalue>false</rtexprvalue>
     		<type>java.lang.String</type>
