@@ -12,10 +12,10 @@
 		String[] items = {"Java", "C/C++", "Assembly", "Python", "Perl"};
 	%>
 	<%--
-		String prompt = null;
+		String prompt = null;<%= prompt %>
 	--%>
 	<it315:iterate items="<%= items %>" name="lang" varName="prompt">
-		<%= prompt %> ${ lang } <br />
+		${ lang } - <%= lang %> <br />
 	</it315:iterate>
 </body>
 </html>
