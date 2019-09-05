@@ -136,4 +136,30 @@
     		<type>java.lang.String</type>
     	</attribute>
     </tag>
+    <tag>
+    	<description>Usage of interface BodyTag</description>
+    	<display-name>it315.TestBody</display-name>
+    	<name>testBody</name>
+    	<tag-class>org.it315.custom.tag.TestBodyTag</tag-class>
+    	<body-content>JSP</body-content>
+    </tag>
+    <tag>
+    	<description>Usage of interface BodyTag - View source code</description>
+    	<display-name>it315.HtmlFilter</display-name>
+    	<name>htmlFilter</name>
+    	<tag-class>org.it315.custom.tag.HtmlFilterTag</tag-class>
+    	<body-content>JSP</body-content>
+    </tag>
+    <tag>
+    	<description>Usage of interface BodyTag - Read file</description>
+    	<display-name>it315.ReadFile</display-name>
+    	<name>readFile</name>
+    	<tag-class>org.it315.custom.tag.ReadFileTag</tag-class>
+    	<body-content>empty</body-content>
+    	<attribute>
+    		<name>src</name>
+    		<required>true</required>
+    		<rtexprvalue>false</rtexprvalue>
+    	</attribute>
+    </tag>
 </taglib>
