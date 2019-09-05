@@ -107,4 +107,33 @@
     	<tag-class>org.it315.custom.tag.TestMemoryTag</tag-class>
     	<body-content>empty</body-content>
     </tag>
+    <tag>
+    	<description>Simulate the usage of JSP action jsp:useBean</description>
+    	<display-name>it315.useBean</display-name>
+    	<name>useBean</name>
+    	<tag-class>org.it315.custom.tag.UseBeanTag</tag-class>
+    	<tei-class>org.it315.custom.tag.extra.UseBeanTagExtraInfo</tei-class>
+    	<body-content>JSP</body-content>
+    	<attribute>
+    		<description>reference name of bean</description>
+    		<name>name</name>
+    		<required>true</required>
+    		<rtexprvalue>false</rtexprvalue>
+    		<type>java.lang.String</type>
+    	</attribute>
+    	<attribute>
+    		<description>bean type</description>
+    	    <name>type</name>
+    		<required>true</required>
+    		<rtexprvalue>false</rtexprvalue>
+    		<type>java.lang.String</type>
+    	</attribute>
+    	<attribute>
+    		<description>attribute scope</description>
+    		<name>scope</name>
+    		<required>true</required>
+    		<rtexprvalue>false</rtexprvalue>
+    		<type>java.lang.String</type>
+    	</attribute>
+    </tag>
 </taglib>
