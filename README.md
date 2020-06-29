@@ -8,7 +8,7 @@ Learn to use and study Java language.
 *****
 There will be lots of projects here, so must set a rule to identify them, below is:  
 
-- Java_Web_Book_000 -《Java编程思想(第4版)》
+- Java_Book_000 -《Java编程思想(第4版)》
 
 > - Java基础
 
